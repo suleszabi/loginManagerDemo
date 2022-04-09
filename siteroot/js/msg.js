@@ -1,0 +1,23 @@
+const msgKeys = {
+    UsernameEmpty: "No username given!",
+    UsernameLength: "Username length is lower than 5 or greater than 12!",
+    UsernameIsEmail: "Username can not be an email address!",
+    UsernameUsed: "Chosen username is already used!",
+    EmailEmpty: "No e-mail address given!",
+    EmailFormat: "The e-mail address format is not correct!",
+    EmailLength: "The e-mail address length is lower than 6 or greater than 40!",
+    EmailUsed: "Chosen e-mail address is already used!",
+    Pwd1Empty: "No password given!",
+    PwdLength: "Password length is lower than 8 or greater than 64!",
+    PwdIsEmail: "Password can not be an email address!",
+    PwdNumber: "Password not contains number!",
+    PwdLowercase: "Password not contains lowercase!",
+    PwdUppercase: "Password not contains uppercase!",
+    Pwd2Empty: "No password confirmation given!",
+    PwdsNotEqual: "Password confirmation is not equal to password!",
+    RegistrateError: "An error occured during registration!",
+    WrongLoginData: "Incorrect login information!",
+    requestError: "An error occured during request!\r\nPlease refresh the page!",
+    NotLoggedIn: "You are not logged in!\r\nPlease refresh the page!",
+    LogOutError: "An error occured during log out!\r\nPlease refresh the page!"
+}

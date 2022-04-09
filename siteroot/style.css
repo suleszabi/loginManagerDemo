@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    background-color: #665687;
+}
+
+#mainContainer {
+    box-sizing: border-box;
+    background-color: #fafafa;
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    color: #190933;
+}
+
+a {
+    text-decoration: none;
+    color: #665687;
+    transition: color 0.2s ease 0s;
+}
+
+a:hover {
+    color: #190933;
+}
+
+#loginForm, #regForm {
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 500px;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 6px -2px #190933;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 4px auto;
+    border: 1px solid #665687;
+    outline: none;
+    font-size: 20px;
+    color: #190933;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.inputFeedback {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.correct {
+    color: darkgreen;
+}
+
+.incorrect {
+    color: darkred;
+}
+
+button {
+    border: none;
+    background-color: #665687;
+    color: #fff;
+    font-size: 20px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease 0s, color 0.2s ease 0s;
+}
+
+button:hover {
+    background-color: #190933;
+    color: #fafafa;
+}
+
+button:disabled {
+    background-color: #665687cc;
+    color: #ffffffcc;
+    cursor: auto;
+}
+
+#registrateLink, #loginLink {
+    text-align: center;
+}
